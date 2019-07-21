@@ -13,7 +13,7 @@ called Backend_Programming_Recipes for extra details.
 
 
 
-Basic http web server
+Basic web server
 ======================
 For the basic web server, we'll use the basic example node provides on thier about page: https://nodejs.org/en/about/.
 
@@ -30,3 +30,4 @@ STEP 4: In bash, run "node index.js" to run the server.
 STEP 5: To see your program, go to your web browser and type in "localhost:3000"
     o   Note that "3000" is specified in your index.js file.
     o   You should see "Hello world"!.
+
