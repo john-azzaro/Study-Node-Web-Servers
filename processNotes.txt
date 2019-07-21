@@ -36,4 +36,8 @@ STEP 4: Load modules
 
 STEP 5: create mimeTypes object to list types of data we can server
 
-STEP 6: Create server.
+STEP 6: Create server 
+        o   Most of the logic is taken car of in express but useful to know what is happening).
+        o   When you run the server, you will get a 404 error because you dont have a html file yet.
+
+STEP 7: Create an html file.
