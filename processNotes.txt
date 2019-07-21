@@ -23,4 +23,10 @@ STEP 1: Create an application folder
 STEP 2: Create a package.json folder with "npm init"
     o   Follow the details and fill them as you see fit.
 
-STEP 3: 
+STEP 3: Add an index.js file and insert basic html server example code in there.
+
+STEP 4: In bash, run "node index.js" to run the server.
+
+STEP 5: To see your program, go to your web browser and type in "localhost:3000"
+    o   Note that "3000" is specified in your index.js file.
+    o   You should see "Hello world"!.
