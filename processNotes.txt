@@ -11,6 +11,13 @@ If you are unfamiliar with Node, web servers, or NPM, check out my handy guide t
 called Backend_Programming_Recipes for extra details.
 
 
+Notes on Basic http web server
+==============================
+Very interesting process, but after attempting to do things in plain javascript, I can see why express is so 
+valueable and unobfuscated, especially when it comes to creating the server itself since express has an underlying
+http server and you just dont have to do all of this.
+
+
 
 
 Basic http web server
@@ -25,8 +32,8 @@ STEP 2: Create a package.json folder with "npm init"
 
 STEP 3: Add an index.js file and insert basic html server example code in there.
 
-STEP 4: In bash, run "node index.js" to run the server.
+STEP 4: Load modules
 
-STEP 5: To see your program, go to your web browser and type in "localhost:3000"
-    o   Note that "3000" is specified in your index.js file.
-    o   You should see "Hello world"!.
+STEP 5: create mimeTypes object to list types of data we can server
+
+STEP 6: Create server.
