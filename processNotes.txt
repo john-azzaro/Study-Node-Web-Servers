@@ -1,0 +1,26 @@
+Process Notes
+======================
+After learning about web servers and application frameworks, I'm fascinated by just how many different ways
+there are to make web servers in node, such as using the express framework, basic node web server, etc.
+
+Althought there are quite a few  ways to implement a web server, the following study will involve using 
+express but also a few other ways as well which I will add to this repository as time progresses in their own
+respective branches.
+
+If you are unfamiliar with Node, web servers, or NPM, check out my handy guide to server side web development
+called Backend_Programming_Recipes for extra details.
+
+
+
+
+Basic http web server
+======================
+For the basic web server, we'll use the basic example node provides on thier about page: https://nodejs.org/en/about/.
+
+
+STEP 1: Create an application folder
+
+STEP 2: Create a package.json folder with "npm init"
+    o   Follow the details and fill them as you see fit.
+
+STEP 3: 
