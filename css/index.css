@@ -135,46 +135,6 @@ body {                                                                         /
 
 
 
-
-/*// FOOTER STYLING (note: should be combined but seperated from header stylizations for study) //*/
-.main-footer {                                                           
-    display: flex;                                                            /* ... line up everything side-by-side... */
-    justify-content: space-between;                                               /* ... use "space-between" to push these two elements as far apart as possible (see "around" and "evenly" also). */
-    align-items: center;                                                          /* ... and both the brand logo and navigation sections are perfectly centered. */
-    height: 80px;                                                                 /* ... and adding height will put space between the top of the document and the header element.... */  
-    font-weight: bold;                                                            /* ... font has bolded text ...*/
-    background-color: rgba(10, 10, 10, 0.85);  
-}
-
-.main-footer .container {                                                    /* For the alignment of the footer links: */
-    display: flex;                                                                /* ... line everything up side by side ...*/
-    justify-content: space-between;                                               /* ... space everything out from each other as far as possible...*/
-  }
-
-.footer-nav ul {                                                             /* for the main nav container with the anchor tags "Discover" and "Join": */
-    display: flex;                                                                /* ... put the elements next to each other... */
-    margin: 0;                                                                    /* ... no margin ... */
-    padding: 0;                                                                   /* ... no padding ... */
-    list-style: none;                                                             /* ... remove the list styling (i.e. bullet points) */
-}
-
-.footer-nav a {                                                                /* Styling the anchor tags themselves (i.e. "Discover" and "Join" */
-    color: inherit;                                                               /* ... the anchor tags inherits the color white from the parent body... */
-    text-decoration: none;                                                        /* ... remove the underline from the default anchor text styling... */
-    padding: 1.5rem;                                                              /* ... add space between the anchor tags... */
-    letter-spacing: 2px;                                                          /* ... add spacing between letters... */
-}
-
-.footer-nav a:hover {                                                          /* When hovering over the anchor tags:*/
-    color: #f0f0f0;                                                             /* ... the anchor tag text will darken slightly... */
-}
-
-.social-link img {                                                             /* For the social media images inside the social-link class elements: */
-    width: 1em;                                                                   /* ... adjust spacing between img and link name...*/
-    margin-right: .25em;                                                          
-}
-
-
 /*// GLOBAL ELEMENT STYLING//*/
 
 .title {                                                                       /* For all "title" class elements: */
@@ -211,7 +171,8 @@ body {                                                                         /
 }
 
 .accent-text {                                                                 /* for highlighted text in the h1 element: */
-    color: rgb(102, 104, 18);                                                      
+    color: rgb(102, 104, 18); 
+                                                      
 }
 
 /*/ GLOBAL CIRCULAR DESIGN SHAPES /*/
