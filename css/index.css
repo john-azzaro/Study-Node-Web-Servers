@@ -12,7 +12,7 @@
 body {                                                                         /* For everything in the body of the HTML document: */
     padding: 0;                                                                   /* ... padding 0... */
     margin: 0;                                                                    /* ... margin 0... */
-    background: linear-gradient(to right, rgb(163, 163, 170), rgb(165, 168, 149));                                                  
+    background: linear-gradient(to right, rgb(147, 147, 155), rgb(155, 158, 139));                                                  
     font-family: 'Poppins', sans-serif;                                           /* ... font family is poppins and a defaulty of san serif if there is an issue downloading... */
     font-size: 1.2rem;                                                            /* ... default font size is font relative to the root html element... */
     color: white;                                                               /* ... default text color is white... */
