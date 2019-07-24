@@ -1,9 +1,9 @@
 Process Notes
 ======================
 After learning about web servers and application frameworks, I'm fascinated by just how many different ways
-there are to make web servers in node, such as using the express framework, basic node web server, etc.
+there are to make web servers in node.
 
-Althought there are quite a few  ways to implement a web server, the following study will involve using 
+Although there are quite a few  ways to implement a web server, the following study will involve using 
 express but also a few other ways as well which I will add to this repository as time progresses in their own
 respective branches.
 
@@ -11,16 +11,16 @@ If you are unfamiliar with Node, web servers, or NPM, check out my handy guide t
 called Backend_Programming_Recipes for extra details.
 
 
-Notes on Basic http web server
-==============================
+
+
+
+Process Notes on Basic http web server
+======================================
 Very interesting process, but after attempting to do things in plain javascript, I can see why express is so 
 valueable and unobfuscated, especially when it comes to creating the server itself since express has an underlying
 http server and you just dont have to do all of this.
 
-
-
-
-Basic http web server
+How to setup a basic http web server
 ======================
 For the basic web server, we'll use the basic example node provides on thier about page: https://nodejs.org/en/about/.
 
@@ -37,7 +37,12 @@ STEP 4: Load modules
 STEP 5: create mimeTypes object to list types of data we can server
 
 STEP 6: Create server 
-        o   Most of the logic is taken car of in express but useful to know what is happening).
+        o   Most of the logic is taken care of in express but useful to know what is happening).
         o   When you run the server, you will get a 404 error because you dont have a html file yet.
 
 STEP 7: Create an html file.
+        o   At this point, when you run local host on the specified port 1337, you will see "This is a test".
+
+
+Process Notes on http web server expanded website 
+================================================
