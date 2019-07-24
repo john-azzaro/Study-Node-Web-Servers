@@ -152,7 +152,7 @@ body {                                                                         /
 
 .btn {                                                                         /* For all buttons with the class "btn": */
     color: white;                                                                /* ... text color is white... */   
-    background-color: rgb(86, 87, 63);                                                   /* ... button back ground color is blue ... */
+    background-color: rgb(216, 156, 86);                                                   /* ... button back ground color is blue ... */
     padding: .75rem 1.5rem;                                                        /* ... padding on the button is .75.rem (top and bottom) and 1.5rem (left and right) ... */
     border-radius: .5rem;                                                          /* ... with rounded edges ...*/
     text-decoration: none;                                                         /* ... and no default link underline ... */
@@ -163,15 +163,15 @@ body {                                                                         /
 }
 
 .btn:hover {
-    background-color:  rgb(74, 75, 53);
+    background-color:  rgb(206, 150, 86);
   }
   
 .btn:focus {
-    background-color: rgb(62, 63, 46);
+    background-color: rgb(206, 150, 86);
 }
 
 .accent-text {                                                                 /* for highlighted text in the h1 element: */
-    color: rgb(102, 104, 18); 
+    color: rgb(230, 183, 130); 
                                                       
 }
 
