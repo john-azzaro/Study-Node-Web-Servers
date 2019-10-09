@@ -8,8 +8,8 @@ Node Web Servers Study is a study in the construction of a basic web server WITH
 * [How do I install the Web Servers Study?](#How-do-you-install-the-Web-Servers-Study)
 * [What are the key takeaways from the Node Web Servers Study?](#What-are-the-key-takeaways-from-the-Node-Web-Servers-Study)
 * [How do you install the Web Servers Study?](#How-do-you-install-the-Web-Servers-Study)
-* [](#)
-* [](#)
+* [What are the key features of the Node Web Servers Study?](#What-are-the-key-features-of-the-Node-Web-Servers-Study)
+* [Screenshots](#Screenshots)
 
 <br>
 
@@ -31,9 +31,9 @@ Since this study is ongoing, basic functionalities are covered first and more ad
 
 | **Features:**                            | **Feature Notes:**                             |
 | ---------------------------------------- | ----------------------------------------------|
-| basic web server                             |  see nodeWebServer               |
-| basic web server with pages                             |  see nodeHttpWebServer                |
-| Web server with fully functioning site                            |  see basicServerSite               |
+| basic web server                             |  see nodeWebServer branch             |
+| basic web server with pages                             |  see nodeHttpWebServer branch               |
+| Web server with fully functioning site                            |  see basicServerSite branch               |
 
 
 
