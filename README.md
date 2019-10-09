@@ -1,10 +1,5 @@
 # Node Web Servers Study
 
-## How do you install the Web Servers Study?
-1. After cloning this repo, run ```npm install``` at the command line.
-2. To stat the app, run ```node index.js``` at the command line.
-3. Visit http://localhost:3000 to see the study live.
-
 <br>
 
 ## What is Node Web Servers Study?
@@ -20,13 +15,50 @@ Here are a few questions examined in this study:
 
 <br>
 
+## How do you install the Web Servers Study?
+1. After cloning this repo, run ```npm install``` at the command line.
+2. To stat the app, run ```node index.js``` at the command line.
+3. Visit http://localhost:3000 to see the study live.
+
+<br>
+
 ## What are the key takeaways from the Node Web Servers Study?
 
 <dl>
 
-### 
+### The http module.
 --------
 <dd>
+
+In order to allow client-server communication via HTTP protocol, you need to use the built-in ``` http ``` module.  This module provides the interface to create either an HTTP server of HTTP client that can communicate with other clients or servers. Additionally, it should be noted that the ```http``` module is a streaming interface. 
+
+```JavaScript
+    cosnt http: require('HTTP')
+```
+
+
+</dd>
+
+### Mimetypes set the type of files you want to serve.
+--------
+<dd>
+
+When a request is made for a particular file on your server, the Mimetype essentially instructs your browser as to how it should be handled. In the case of this study, the Mimetype for the html page to interpret all the files with the *html* extension to interpret those as HTML document files.
+
+
+```JavaScript
+    const mimeTypes = { 
+    "html": "text/html",                                         // serve html...
+    "js": "text/javascript",                                     // ... and javascript files 
+    "css": "text/css",                                           // ... and css files         
+    "jpeg": "image/jpeg",                                        // ... and jpeg images
+    "jpg": "image/jpg",                                          // ... and jpg images
+    "png": "image/png",                                          // ... and png images
+    }  
+```
+
+
+
 
 
 </dd>
