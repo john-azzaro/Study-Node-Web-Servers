@@ -1,5 +1,10 @@
 # Node Web Servers Study
 
+## How do you install the Web Servers Study?
+1. After cloning this repo, run ```npm install``` at the command line.
+2. To stat the app, run ```node index.js``` at the command line.
+3. Visit http://localhost:3000 to see the study live.
+
 <br>
 
 ## What is Node Web Servers Study?
@@ -30,12 +35,6 @@ Here are a few questions examined in this study:
 
 </dl>
 
-<br>
-
-## How do you install the Web Servers Study?
-1. After cloning this repo, run ```npm install``` at the command line.
-2. To stat the app, run ```node index.js``` at the command line.
-3. Visit http://localhost:3000 to see the study live.
 
 <br>
 
