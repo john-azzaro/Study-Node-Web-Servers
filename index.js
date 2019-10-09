@@ -44,4 +44,4 @@ http.createServer(function(req, res) {                                          
     res.end()                                                                         // and end response.
   }
 
-}).listen(1337);                                                                     // then lastly, listen on port 1337 for a request                                                          
+}).listen(3000);                                                                     // then lastly, listen on port 3000 for a request                                                          

@@ -10,7 +10,7 @@ Node Web Servers Study is a study in the construction of a basic web server WITH
 ## How do I install the Web Servers Study?
 1. After cloning this repo, run ```npm install``` at the command line.
 2. To stat the app, run ```node index.js``` at the command line.
-3. Visit http://localhsot:1337 to see the study live.
+3. Visit http://localhost:3000 to see the study live.
 
 <br>
 
