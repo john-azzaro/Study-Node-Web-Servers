@@ -24,9 +24,11 @@ Here are a few questions examined in this study:
 
 ## What are the key takeaways from the Node Web Servers Study?
 
+<br>
+
 <dl>
 
-### The http module.
+### The http module is the foundation of a server without a framework.
 --------
 <dd>
 
@@ -57,13 +59,42 @@ When a request is made for a particular file on your server, the Mimetype essent
     }  
 ```
 
-
-
-
-
 </dd>
 
+### Raw HTTP Node.js VS Express  
+--------
+<dd>
 
+Although it seems as though Express would have an overall win vs raw HTTP Node.js in creating a http server, not only because it provides an abstraction layer above the raw http module making it *much* easier to work with, as well as the benefits of having a wide variety of middleware, etc, the raw HTTP Node.js seems managable if not a bit more complex to deal with. For example, here's a comparison between using raw HTTP and express.
+
+"Hello world!" using raw HTTP server with Node.js:
+```JavaScript
+    const http = require('http');
+
+    http.createServer(function(request, response) {
+        reponse.writeHead(200, {'Content-Type': 'text/plain'});
+        response.write('Hello world!');
+        response.end();
+    }).listen(3000);
+    console.log("Your app is listening on Port 3000...");
+```
+
+"Hello world!" using express:
+```JavaScript
+    const express = require('express');
+    const app = express();
+
+    app.get('/', function(req, res){
+        res.send("Hello world!");
+    });
+
+    app.listen(3000, function(){
+        console.log(`Your app is listening on Port 3000...`);
+    });
+
+```
+
+</dd>
 
 </dl>
 
