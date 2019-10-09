@@ -44,5 +44,10 @@ STEP 7: Create an html file.
         o   At this point, when you run local host on the specified port 1337, you will see "This is a test".
 
 
-Process Notes on http web server expanded website 
-================================================
+
+
+
+
+resources
+===============
+https://www.freecodecamp.org/news/a-no-frills-guide-to-node-js-how-to-create-a-node-js-web-app-without-external-packages-a7b480b966d2/   -- outline

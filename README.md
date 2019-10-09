@@ -3,13 +3,32 @@
 <br>
 
 ## What is Node Web Servers Study?
-Node Web Servers Study is a study in the construction of a basic web server WITHOUT frameworks like express.  Suffice to say that implementing express applications is MUCH easier, however taking a little bit of time to study web servers without express provides a great deal of insight into what happens underneath the hood.  If you would like to see the express study of this particular project, please take a look.
+Node Web Servers Study is a study in the construction of a basic web server WITHOUT frameworks like express.  Suffice to say that implementing express applications is MUCH easier, however taking a little bit of time to study web servers without express provides a great deal of insight into what happens underneath the hood and try to understand the system a little bit more.  If you would like to see the express study of this particular project, please take a look.
+
+Here are a few questions examined in this study:
 
 * [How do I install the Web Servers Study?](#How-do-you-install-the-Web-Servers-Study)
 * [What are the key takeaways from the Node Web Servers Study?](#What-are-the-key-takeaways-from-the-Node-Web-Servers-Study)
 * [How do you install the Web Servers Study?](#How-do-you-install-the-Web-Servers-Study)
 * [What are the key features of the Node Web Servers Study?](#What-are-the-key-features-of-the-Node-Web-Servers-Study)
 * [Screenshots](#Screenshots)
+
+<br>
+
+## What are the key takeaways from the Node Web Servers Study?
+
+<dl>
+
+### 
+--------
+<dd>
+
+
+</dd>
+
+
+
+</dl>
 
 <br>
 
