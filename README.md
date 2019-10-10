@@ -65,18 +65,18 @@ In order to allow client-server communication via HTTP protocol, you need to use
 --------
 <dd>
 
-Although it seems as though Express would take the overall win vs raw HTTP Node.js in creating a http server (not only because it provides an abstraction layer above the raw http module making it *much* easier to work with, as well as the benefits of having a wide variety of middleware, etc) the raw HTTP Node.js seems managable if not a bit more complex to deal with. And not to to diss the raw HTTP server over express, it does possess a bit of the "spaghetti"-esque structure I've learned to avoid while express has a much more organized and concise layout.
+Express would take the overall win vs raw HTTP Node.js when it comes to creating a http server. Not only does express provide an abstraction layer above the raw http module making it *much* easier to work with, the benefits of having a wide variety of middleware, etc. vs. raw HTTP Node.js make the process much more simplified to streamlined. And not to disparage the venerable raw HTTP server over express, but it does have an inherent "spaghetti"-esque structure which I've tried to avoid.
 
-For example, here's a comparison between using raw HTTP and express.
+Speaking of complexity, here's a comparison between using raw HTTP and express that shows how much more concise express is at doing the exact same thing.
 
 "Hello world!" using raw HTTP server with Node.js:
 ```JavaScript
     const http = require('http');
 
-    http.createServer(function(request, response) {
-        reponse.writeHead(200, {'Content-Type': 'text/plain'});
-        response.write('Hello world!');
-        response.end();
+    http.createServer(function(request, response) {      
+        res.writeHead(200, {'Content-Type': 'text/plain'});   
+        res.write('Hello world!');
+        res.end();
     }).listen(3000);
     console.log("Your app is listening on Port 3000...");
 ```
