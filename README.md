@@ -61,7 +61,7 @@ In order to allow client-server communication via HTTP protocol, you need to use
 
 </dd>
 
-### Node web servers are complex, but doable! 
+### Raw Node web servers are complex, but doable! 
 --------
 <dd>
 
